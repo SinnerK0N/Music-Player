@@ -1,8 +1,25 @@
 # Fossify Music Player
+## with Android Auto support enabled
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
-<a href='https://play.google.com/store/apps/details?id=org.fossify.musicplayer'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height=80/></a> <a href="https://f-droid.org/packages/org.fossify.musicplayer/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-en.svg" alt="Get it on F-Droid" height=80/></a> <a href="https://apt.izzysoft.de/fdroid/index/apk/org.fossify.musicplayer"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height=80/></a>
+**🆕 WHAT CHANGED**<br>
+I uncommented the part of code which prevented Android Auto from seeing the app as Android Auto compatible.
+I will keep this fork up-to-date with upstream until they enable Android Auto support.
+
+**📲 HOW TO INSTALL**<br>
+1. Download the .apk from https://github.com/SinnerK0N/Music-Player/releases/
+2. Install it
+3. Open Android Auto settings
+4. Click 10 times on the *Version and permission info* option at the bottom and confirm the action in a pop-up window (this will enable developer mode)
+5. Click the 3 dots at the top
+6. Click on *Developer settings*
+7. Check the *Unknown sources* option (this will enable Android Auto to run apps that were not installed from the Google Play Store)
+
+That's it! You can now use the app in your car
+
+**💬 WHY IS ANDROID AUTO DISABLED IN UPSTREAM?**<br>
+See here: https://github.com/SimpleMobileTools/Simple-Music-Player/pull/603#issuecomment-1817365609
 
 Introducing Fossify Music Player – your gateway to uninterrupted musical enjoyment. Say goodbye to intrusive ads and hello to a seamless music experience
 designed to accompany you wherever you go.
